@@ -1,0 +1,12 @@
+.homesg-container {
+    flex: 5;
+    padding: 1rem;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

@@ -1,0 +1,75 @@
+.leftbar-sg {
+    flex: 2;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+.menul-lg {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerl-lg {
+    padding: 20px;
+}
+
+.userl-lg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img{
+        height: 3rem;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+
+    span{
+    }
+}
+
+.iteml-lg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img{
+        height: 3rem;
+    }
+}
+
+.users-sb {
+    padding: 20px;
+}
+
+.userl-sb {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+    img{
+        height: 3rem;
+        border-radius: 50px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+}
+
+.sidebarHr {
+    margin: 20px 0;
+  }
+  
+  .sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }

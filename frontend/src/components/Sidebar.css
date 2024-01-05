@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+
+main {
+  width: 100%;
+}
+
+.sidebar {
+    background-color: rgb(129, 82, 230);
+    color: white;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.link {
+    display: flex;
+    color: white;
+    padding: 1rem 1rem;
+    transition: all 1s;
+}
+
+.link:hover, .accountlink:hover {
+    background-color: rgb(87, 19, 233);
+    color: rgb(191, 82, 230);
+}
+
+.accountlink {
+    display: flex;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 7rem;
+    transition: all 1s;
+}
+
+.active {
+    color: rgb(103, 243, 243);
+}
+  
+  .home-container {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #af68e3, #b6599c, #d84773);
+    /* background: linear-gradient(to bottom, #d299ea, #9b59b6, #6330a0); */
+
+    .study{
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+        font-size: 25px;
+    }
+
+    .welcome {
+        font-size: 50px;
+        text-shadow: 0 0 10px rgba(227, 78, 123, 0.9);
+    }
+  }
+  
+  .home-container h1 {
+    font-size: 36px;
+    padding-top: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    line-height: 2;
+    color:white;
+    margin-bottom: 30px;
+    padding: 3rem 5rem 3rem 5rem;
+  }
+  
+  .cta-button {
+    padding: 1rem 3rem;
+    background-color: rgb(215, 113, 252);
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+
+    span {
+      color: rgb(126, 8, 103);
+      font-size: 30px;
+
+      &:hover {
+        color: #640384;
+      }
+    }
+  
+  &:hover {
+    padding: 1.5rem 4rem;
+    background-color: rgb(204, 94, 214);
+    transition: 0.8s ease-in-out;
+  }
+}
